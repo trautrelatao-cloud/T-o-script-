@@ -165,3 +165,39 @@ Tabs.Main3:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
 	end
 })
+
+Tabs.Main5:AddButton({
+	Title = "hơi lỏ",                             -- 👈 tên nút hiển thị
+	Description = "script này nhu lon😃",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/PlantsVsBrainrots"))()
+	end
+})
+
+Tabs.Main5:AddButton({
+	Title = "cx ổn",                             -- 👈 tên nút hiển thị
+	Description = "script này ngon😃",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+loadstring(game:HttpGet("https://github.com/collectorhenfi-wq/Hendarscriptt/raw/refs/heads/main/Plantvsbrainrotupdate.txt"))()
+	end
+})
+
+Tabs.Main2:AddButton({
+	Title = "jack827",                             -- 👈 tên nút hiển thị
+	Description = "script này cx dc",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
+	end
+})
